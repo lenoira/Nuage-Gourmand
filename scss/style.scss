@@ -19,6 +19,8 @@ header {
     margin-bottom: 2rem;
     @include sm {
       flex-flow: column nowrap;
+      margin-bottom: 0rem;
+      padding: 1rem 2rem;
     }
     li {
       flex: 1;
@@ -45,11 +47,15 @@ header {
   padding: 2rem 2rem;
   @include sm {
     flex-flow: column nowrap;
+    padding: 0.2rem 1rem;
   }
   img {
     flex-grow: 1;
     object-fit: contain;
     max-height: 25rem;
+    @include sm {
+      max-height: 15rem;
+    }
   }
 }
 .banner {
@@ -79,11 +85,14 @@ header {
   }
   .she-text {
     flex: 1;
-    padding: 6rem 8rem;
-    // margin: 4rem 11rem;
+    padding: 0rem 12rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     @include sm {
-      padding: 2rem 1rem;
+      padding: 0rem 1rem;
     }
     p {
     }
