@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text);
+  font-size: 1.6rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0 2rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Landscape phones and down */
+/* Landscape phone to portrait tablet */
+/* Portrait tablet to landscape and desktop */
+/* Large desktop */
+.variable-width {
+  width: 100%;
+}
+
+.slider2 {
+  width: 50rem;
+  height: 30rem;
+  margin: 0 15px;
+}
+
+.slider2-img1 {
+  background: url(../img/07022021-7U6A3320.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.slider2-img2 {
+  background: url(../img/07022021-7U6A3373.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.slider2-img3 {
+  background: url(../img/07022021-7U6A3330.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.single-item {
+  width: 100%;
+}
+
+.slider1 {
+  width: 90%;
+  height: 65rem;
+}
+
+.slider1-img1 {
+  background: url(../img/IMG20210703115841.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.slider1-img2 {
+  background: url(../img/alex-lvrs-aX_ljOOyWJY-unsplash.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.slider1-img3 {
+  background: url(../img/priscilla-du-preez-W8F9kM7F-5U-unsplash.jpg) center no-repeat;
+  background-size: cover;
+}
+
+header .logo {
+  text-align: center;
+}
+header .logo img {
+  max-height: 24rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 2rem 6rem;
+  margin-bottom: 2rem;
+}
+.nav ul li {
+  flex: 1;
+}
+.nav ul li a {
+  color: var(--primary);
+}
+.nav ul li a img {
+  max-height: 5rem;
+  margin: 0.2rem;
+}
+.nav ul li :hover {
+  color: var(--text);
+}
+
+.proposition {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 3rem 8rem;
+  max-height: 30rem;
+}
+.proposition img {
+  flex-grow: 1;
+  object-fit: contain;
+}
+
+.banner img {
+  object-fit: fill;
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.presentation {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 50rem;
+}
+.presentation .she {
+  flex: 1;
+}
+.presentation .she img {
+  height: 100%;
+  padding: 4rem 5rem;
+  object-fit: cover;
+}
+.presentation .she-text {
+  flex: 1;
+  padding: 8rem 8rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

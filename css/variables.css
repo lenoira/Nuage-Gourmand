@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Sora", sans-serif;
+  --light: #d8edea;
+  --primary: #e1abab;
+  --text: #333;
+  --background: #fafafa;
+  --hint: #999;
+  --border: #ddd;
+  --shadow-1: 0px 1px 2px 0px rgb(60 64 67 / 30%),
+    0px 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+/*# sourceMappingURL=variables.css.map */
