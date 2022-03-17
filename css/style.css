@@ -70,6 +70,15 @@ img {
   background-size: cover;
 }
 
+.prev img {
+  height: 4rem;
+  position: relative;
+}
+
+.next img {
+  height: 4rem;
+}
+
 .single-item {
   width: 100%;
 }
@@ -104,7 +113,7 @@ header .logo img {
 .nav ul {
   display: flex;
   flex-flow: row nowrap;
-  padding: 2rem 6rem;
+  padding: 2rem 2rem;
   margin-bottom: 2rem;
 }
 .nav ul li {
@@ -112,6 +121,10 @@ header .logo img {
 }
 .nav ul li a {
   color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .nav ul li a img {
   max-height: 5rem;
@@ -124,12 +137,12 @@ header .logo img {
 .proposition {
   display: flex;
   flex-flow: row nowrap;
-  padding: 3rem 8rem;
-  max-height: 30rem;
+  padding: 2rem 2rem;
 }
 .proposition img {
   flex-grow: 1;
   object-fit: contain;
+  max-height: 25rem;
 }
 
 .banner img {
@@ -142,7 +155,8 @@ header .logo img {
 .presentation {
   display: flex;
   flex-flow: row nowrap;
-  height: 50rem;
+  max-height: 50rem;
+  word-wrap: break-word;
 }
 .presentation .she {
   flex: 1;
@@ -156,6 +170,21 @@ header .logo img {
   flex: 1;
   padding: 8rem 8rem;
   text-align: center;
+}
+.slideshow2 {
+  position: relative;
+}
+
+.prev {
+  position: absolute;
+  top: 15rem;
+  left: 0rem;
+}
+
+.next {
+  position: absolute;
+  top: 15rem;
+  right: 0rem;
 }
 
 /*# sourceMappingURL=style.css.map */
