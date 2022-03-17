@@ -6,8 +6,9 @@
 header {
   .logo {
     text-align: center;
+    padding-top: 2rem;
     img {
-      max-height: 24rem;
+      max-height: 20rem;
     }
   }
 }
@@ -16,10 +17,8 @@ header {
     display: flex;
     flex-flow: row nowrap;
     padding: 2rem 2rem;
-    margin-bottom: 2rem;
     @include sm {
       flex-flow: column nowrap;
-      margin-bottom: 0rem;
       padding: 1rem 2rem;
     }
     li {
