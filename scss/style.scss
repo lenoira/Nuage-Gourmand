@@ -17,6 +17,9 @@ header {
     flex-flow: row nowrap;
     padding: 2rem 2rem;
     margin-bottom: 2rem;
+    @include sm {
+      flex-flow: column nowrap;
+    }
     li {
       flex: 1;
       a {
@@ -40,6 +43,9 @@ header {
   display: flex;
   flex-flow: row nowrap;
   padding: 2rem 2rem;
+  @include sm {
+    flex-flow: column nowrap;
+  }
   img {
     flex-grow: 1;
     object-fit: contain;
@@ -48,17 +54,21 @@ header {
 }
 .banner {
   img {
-    object-fit: fill;
     height: 40rem;
     width: 100%;
     object-fit: cover;
+    @include sm {
+      object-fit: contain;
+      height: 20rem;
+    }
   }
 }
 .presentation {
   display: flex;
   flex-flow: row nowrap;
-  max-height: 50rem;
-  word-wrap: break-word;
+  @include sm {
+    flex-flow: column-reverse nowrap;
+  }
   .she {
     flex: 1;
     img {
@@ -69,8 +79,12 @@ header {
   }
   .she-text {
     flex: 1;
-    padding: 8rem 8rem;
+    // padding: 6rem 8rem;
+    margin: 4rem 11rem;
     text-align: center;
+    @include sm {
+      padding: 2rem 1rem;
+    }
     p {
     }
   }
