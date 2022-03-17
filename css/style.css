@@ -186,7 +186,7 @@ header .logo img {
 }
 .presentation .she-text {
   flex: 1;
-  margin: 4rem 11rem;
+  padding: 6rem 8rem;
   text-align: center;
 }
 @media (max-width: 767px) {
