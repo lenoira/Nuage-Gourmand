@@ -228,7 +228,7 @@ header .logo img {
 }
 @media (max-width: 767px) {
   .presentation-whoiam {
-    flex-flow: column-reverse nowrap;
+    flex-flow: column nowrap;
   }
 }
 .presentation-whoiam .whoiam {
@@ -237,7 +237,11 @@ header .logo img {
 .presentation-whoiam .whoiam img {
   padding: 4rem 10rem;
   object-fit: cover;
-  height: 55rem;
+}
+@media (max-width: 767px) {
+  .presentation-whoiam .whoiam img {
+    padding: 2rem 0rem;
+  }
 }
 .presentation-whoiam .whoiam-text {
   flex: 1;
@@ -250,7 +254,7 @@ header .logo img {
 }
 @media (max-width: 767px) {
   .presentation-whoiam .whoiam-text {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 
@@ -258,9 +262,19 @@ header .logo img {
   padding: 2rem 15rem;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .vp {
+    padding: 2rem 2rem;
+  }
+}
 .vp h2 {
   font-family: var(--font-famillyh2);
   font-size: 6rem;
+}
+@media (max-width: 767px) {
+  .vp h2 {
+    font-size: 3rem;
+  }
 }
 .vp p {
   padding: 3rem 0rem;
@@ -268,19 +282,27 @@ header .logo img {
 .vp img {
   max-height: 60rem;
 }
+@media (max-width: 767px) {
+  .vp img {
+    max-height: 35rem;
+  }
+}
+
+.banner-cuisine img {
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .banner-cuisine img {
+    height: 20rem;
+  }
+}
 
 .vp-question {
-  padding: 2rem 15rem;
   text-align: center;
   display: flex;
   flex-flow: column;
-  padding: 2rem 2rem;
-}
-@media (max-width: 767px) {
-  .vp-question {
-    flex-flow: column nowrap;
-    padding: 0.2rem 1rem;
-  }
 }
 .vp-question h3 {
   font-family: var(--font-famillyh2);
@@ -293,9 +315,31 @@ header .logo img {
 .vp-question p {
   padding: 0rem 7rem;
 }
+@media (max-width: 767px) {
+  .vp-question p {
+    padding: 0.2rem 1rem;
+  }
+}
 
 .question {
   margin-top: 3rem;
+}
+@media (max-width: 767px) {
+  .question {
+    padding: 0.2rem 1rem;
+  }
+}
+
+.banner-question img {
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .banner-question img {
+    object-fit: contain;
+    height: 20rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
