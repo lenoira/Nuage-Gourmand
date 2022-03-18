@@ -154,3 +154,29 @@ header {
     max-height: 60rem;
   }
 }
+// Questions
+.vp-question {
+  padding: 2rem 15rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem 2rem;
+  @include sm {
+    flex-flow: column nowrap;
+    padding: 0.2rem 1rem;
+  }
+  h3 {
+    font-family: var(--font-famillyh2);
+    font-size: 3.5rem;
+  }
+  i {
+    font-size: 4rem;
+    color: var(--primary);
+  }
+  p {
+    padding: 0rem 7rem;
+  }
+}
+.question {
+  margin-top: 3rem;
+}

@@ -269,4 +269,33 @@ header .logo img {
   max-height: 60rem;
 }
 
+.vp-question {
+  padding: 2rem 15rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem 2rem;
+}
+@media (max-width: 767px) {
+  .vp-question {
+    flex-flow: column nowrap;
+    padding: 0.2rem 1rem;
+  }
+}
+.vp-question h3 {
+  font-family: var(--font-famillyh2);
+  font-size: 3.5rem;
+}
+.vp-question i {
+  font-size: 4rem;
+  color: var(--primary);
+}
+.vp-question p {
+  padding: 0rem 7rem;
+}
+
+.question {
+  margin-top: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
