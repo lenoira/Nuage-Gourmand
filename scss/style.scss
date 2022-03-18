@@ -111,3 +111,46 @@ header {
   top: 15rem;
   right: 0rem;
 }
+// who iam
+.presentation-whoiam {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--light);
+  @include sm {
+    flex-flow: column-reverse nowrap;
+  }
+  .whoiam {
+    flex: 1;
+    img {
+      padding: 4rem 10rem;
+      object-fit: cover;
+      height: 55rem;
+    }
+  }
+  .whoiam-text {
+    flex: 1;
+    text-align: center;
+    padding: 0rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include sm {
+      padding: 0rem 1rem;
+    }
+  }
+}
+.vp {
+  padding: 2rem 15rem;
+  text-align: center;
+  h2 {
+    font-family: var(--font-famillyh2);
+    font-size: 6rem;
+  }
+  p {
+    padding: 3rem 0rem;
+  }
+  img {
+    max-height: 60rem;
+  }
+}

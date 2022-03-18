@@ -221,4 +221,52 @@ header .logo img {
   right: 0rem;
 }
 
+.presentation-whoiam {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--light);
+}
+@media (max-width: 767px) {
+  .presentation-whoiam {
+    flex-flow: column-reverse nowrap;
+  }
+}
+.presentation-whoiam .whoiam {
+  flex: 1;
+}
+.presentation-whoiam .whoiam img {
+  padding: 4rem 10rem;
+  object-fit: cover;
+  height: 55rem;
+}
+.presentation-whoiam .whoiam-text {
+  flex: 1;
+  text-align: center;
+  padding: 0rem 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .presentation-whoiam .whoiam-text {
+    padding: 0rem 1rem;
+  }
+}
+
+.vp {
+  padding: 2rem 15rem;
+  text-align: center;
+}
+.vp h2 {
+  font-family: var(--font-famillyh2);
+  font-size: 6rem;
+}
+.vp p {
+  padding: 3rem 0rem;
+}
+.vp img {
+  max-height: 60rem;
+}
+
 /*# sourceMappingURL=style.css.map */
